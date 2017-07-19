@@ -141,3 +141,6 @@ html,body{
     background: url("../images/jiantou.png") center no-repeat;
     background-size: cover;
 }
+input{
+    border:none;
+}

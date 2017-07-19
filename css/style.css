@@ -1,6 +1,9 @@
 html,body{
     background-color: #035fdc;
 }
+input{
+    border: none;
+}
 header{
     width: 37.5rem;
     height: 24.25rem;
