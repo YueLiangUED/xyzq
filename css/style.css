@@ -1,0 +1,244 @@
+html,body{
+    background-color: #035fdc;
+}
+header{
+    width: 37.5rem;
+    height: 24.25rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+section .tabTitle{
+    padding-top: 1.3rem;
+}
+section .tabTitle ul{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 20rem;
+
+    border-radius: 2rem;
+}
+section .tabTitle ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+section .tabTitle ul li:first-child{
+    border-right: 0;
+    border-radius: 3rem 0 0 3rem;
+}
+section .tabTitle ul li:last-child{
+    border-left: 0;
+    border-radius: 0 3rem 3rem 0;
+}
+section .tabTitle ul li.active{
+    color: #004fbb;
+    background-color: #ffffff;
+}
+section .xs{
+    position: relative;
+}
+section .swiper-container{
+    margin: 2.25rem auto 3.5rem;
+}
+section .xs .swpBg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.6rem;
+    margin: auto;
+    width: 31.55rem;
+    height: 4.7rem;
+    background: url("../images/swpBg.png") center no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+section .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 18.55rem;
+    height: 11.4rem;
+}
+section .xstq .xstqTitle{
+    margin: 0 auto;
+    width: 16.1rem;
+    height: 4.45rem;
+    background: url("../images/xinshengtq.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 34.7rem;
+    height: 22.35rem;
+    background: url("../images/xstqBox.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul{
+    margin: 0 auto;
+    padding-top: 2.7rem;
+    width: 29.95rem;
+}
+section .xstq .xstqBox ul li{
+    position: relative;
+    float: left;
+    width: 14.55rem;
+    height: 8.15rem;
+}
+section .xstq .xstqBox ul li:nth-child(1){
+    margin-right: 0.85rem;
+    margin-bottom: 0.85rem;
+    background: url("../images/xska-1_03.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(2){
+    margin-bottom: 0.85rem;
+    background: url("../images/xska-2_03.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(3){
+    margin-right: 0.85rem;
+    background: url("../images/xska-3_08.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(4){
+    background: url("../images/xska-4_03.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li span{
+    position: absolute;
+    left: 1rem;
+    bottom: 0.85rem;
+    display: block;
+    width: 4.45rem;
+    height: 1.65rem;
+    background: url("../images/GO.png") center no-repeat;
+    background-size: cover;
+}
+section .sjzd .zdTitle{
+    margin: 2.5rem auto 0;
+    width: 14.6rem;
+    height: 3.5rem;
+    background: url("../images/shoujizd.png") center no-repeat;
+    background-size: cover;
+}
+section .sjzd .zdBox{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 2.75rem;
+    width: 34.7rem;
+    height: 23.6rem;
+    background: url("../images/sjzdBox.png") center no-repeat;
+    background-size: cover;
+}
+section .sjzd .zdBox span{
+    display: block;
+    margin: 0 auto;
+    width: 30.1rem;
+    height: 17.95rem;
+    background: url("../images/sjzdPic.png") center no-repeat;
+    background-size: cover;
+}
+section .more .moreTitle{
+    margin: 2.5rem auto 0;
+    width: 14.6rem;
+    height: 3.45rem;
+    background: url("../images/more.png") center no-repeat;
+    background-size: cover;
+}
+section .more .more-ico ul li{
+    float: left;
+    padding-bottom: 5rem;
+    width: 25%;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+section .more .more-ico ul li span:nth-child(1){
+    margin: 2.5rem auto 1rem;
+    display: block;
+    width: 4.85rem;
+    height: 5.65rem;
+}
+section .more .more-ico ul li:nth-child(1) span:nth-child(1){
+    background: url("../images/f-ico-1.png") center no-repeat;
+    background-size: cover;
+}
+section .more .more-ico ul li:nth-child(2) span:nth-child(1){
+    background: url("../images/f-ico-2.png") center no-repeat;
+    background-size: cover;
+}
+section .more .more-ico ul li:nth-child(3) span:nth-child(1){
+    margin-bottom: 1.3rem;
+    background: url("../images/f-ico-3.png") center no-repeat;
+    background-size: cover;
+}
+section .more .more-ico ul li:nth-child(4) span:nth-child(1){
+    background: url("../images/f-ico-4.png") center no-repeat;
+    background-size: cover;
+}
+section .ls{
+    display: none;
+}
+section .ls .lsT-box{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 2.8rem;
+    width: 34.7rem;
+    height: 23.6rem;
+    background: url("../images/ls-T-box.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsT-box span{
+    display: block;
+    margin: 0 auto;
+    width: 30.1rem;
+    height: 17.95rem;
+    background: url("../images/ls-T-pic.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxTitle{
+    margin: 1.7rem auto 0.75rem;
+    width: 16.1rem;
+    height: 3.7rem;
+    background: url("../images/laoshengtq.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxPic{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2.5rem 2.1rem 0 2.3rem;
+    width: 34.4rem;
+    height: 13rem;
+    background: url("../images/ls-B-box.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxPic ul li{
+    position: relative;
+    float: left;
+    width: 14.55rem;
+    height: 8.15rem;
+}
+section .ls .lsB-box .lsB-boxPic ul li:nth-child(1){
+    margin-right: 0.85rem;
+    background: url("../images/xska-1_03.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxPic ul li:nth-child(2){
+    background: url("../images/xska-2_03.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxPic ul li span{
+    position: absolute;
+    display: block;
+    left: 1rem;
+    bottom: 0.85rem;
+    display: block;
+    width: 4.45rem;
+    height: 1.65rem;
+    background: url("../images/GO.png") center no-repeat;
+    background-size: cover;
+}

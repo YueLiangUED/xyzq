@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>校园专区</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<div class="title">
+    <span class="goBack"></span>
+    <span>返回领取页面</span>
+    <p>兑换码</p>
+</div>
+<div class="welcomeTextBox">
+    <p>
+        您好：尊敬的用户<span class="userNum">13651312162</span>
+    </p>
+</div>
+<div class="content one">
+    <div>
+        <span>名称</span>
+        <span>激活码</span>
+    </div>
+    <div>
+        <ul class="clear">
+            <li>
+                <p>乐视网</p>
+                <p>乐视8元代金券</p>
+            </li>
+            <li>
+                <p class="keyCode">BJ132563735</p>
+            </li>
+            <li>
+                <span class="copyBtn">复制</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="content secTitle">
+    <span></span>
+    <p>兑换方式和路径：</p>
+</div>
+<div class="content two">
+    <p>1. 进入M站链接：</p>
+    <p><a href="http://zhifu.le.com/mz/tobuy/regular?ref=m_kthy">http://zhifu.le.com/mz/tobuy/regular?ref=m_kthy</a></p>
+    <p>2. 选择相应会员套餐</p>
+    <p>3. 勾选使用代金券</p>
+    <p>4. 输入代金券码，点击支付</p>
+    <p>5. 显示抵扣后价格，支付即可。</p>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    //隐藏手机号中间4位
+    (function () {
+        var $number = $('.userNum');
+        var mtel = $number.html().substring(0, 3) + '****' + $number.html().substring(8,4);
+        $number.text(mtel);
+    })();
+</script>

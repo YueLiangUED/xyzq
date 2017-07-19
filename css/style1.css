@@ -1,0 +1,437 @@
+html,body{
+    background-color: #035fdc;;
+}
+.zxTitle{
+    margin: 2.25rem auto 2rem;
+    width: 16.1rem;
+    height: 3.8rem;
+    background: url("../images/zunxiangtq.png") center no-repeat;
+    background-size: cover;
+}
+.main ul{
+    padding-bottom: 2rem;
+}
+.main ul li{
+    position: relative;
+    margin: 0 auto 0.85rem;
+    width: 33.9rem;
+    height: 13.65rem;
+}
+.main ul li:nth-child(1){
+    background: url("../images/tqPic-1_05.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(2){
+    background: url("../images/tqPic-2_05.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(3){
+    background: url("../images/tqPic-3_05.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(4){
+    background: url("../images/tqPic-4_11.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(5){
+    background: url("../images/tqPic-5_05.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(6){
+    background: url("../images/tqPic-6_05.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li span{
+    position: absolute;
+    bottom: 1.1rem;
+    left: 1.4rem;
+    display: block;
+    width: 10.95rem;
+    height: 3.6rem;
+}
+.main ul li:nth-child(1) span{
+    background: url("../images/lijibanli.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(2) span{
+    background: url("../images/lijibanli2.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(3) span{
+    background: url("../images/lijibanli3.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(4) span{
+    background: url("../images/lijibanli4.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(5) span{
+    background: url("../images/lijibanli5.png") center no-repeat;
+    background-size: cover;
+}
+.main ul li:nth-child(6) span{
+    background: url("../images/lijibanli6.png") center no-repeat;
+    background-size: cover;
+}
+.spTitle{
+    margin: 4.3rem auto 3.35rem;
+    width: 16.1rem;
+    height: 3.8rem;
+    background: url("../images/shipintq.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox{
+    box-sizing: border-box;
+    padding: 0 1.8rem;
+}
+.tvBox ul li{
+    float: left;
+    margin-bottom: 0.9rem;
+    width: 16.4rem;
+    height: 7.05rem;
+}
+.tvBox ul li:nth-child(odd){
+    margin-right: 1.1rem;
+}
+.tvBox ul li:nth-child(1){
+    background: url("../images/tv1-1_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(2){
+    background: url("../images/tv1-2_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(3){
+    background: url("../images/tv1-3_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(4){
+    background: url("../images/tv1-4_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(5){
+    background: url("../images/tv1-5_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(6){
+    background: url("../images/tv1-6_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(7){
+    background: url("../images/tv1-7_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(8){
+    background: url("../images/tv1-8_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(9){
+    background: url("../images/tv1-9_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(10){
+    background: url("../images/tv1-10_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(1).active{
+    background: url("../images/tv2-1_05.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(2).active{
+    background: url("../images/tv2-2_07.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(3).active{
+    background: url("../images/tv2-3_08.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(4).active{
+    background: url("../images/tv2-4_11.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(5).active{
+    background: url("../images/tv2-5_08.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(6).active{
+    background: url("../images/tv2-6_11.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(7).active{
+    background: url("../images/tv2-7_08.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(8).active{
+    background: url("../images/tv2-8_11.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(9).active{
+    background: url("../images/tv2-9_08.png") center no-repeat;
+    background-size: cover;
+}
+.tvBox ul li:nth-child(10).active{
+    background: url("../images/tv2-10_11.png") center no-repeat;
+    background-size: cover;
+}
+.textBox{
+    padding: 0.45rem 0 2.8rem 1.8rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.btnBox ul{
+    margin: 0 auto 2rem;
+    width: 26rem;
+}
+.btnBox ul li{
+    float: left;
+    margin-right: 5rem;
+    width: 10.45rem;
+    height: 3.35rem;
+}
+.btnBox ul li:nth-child(1){
+    background: url("../images/guizeBtn.png") center no-repeat;
+    background-size: cover;
+}
+.btnBox ul li:nth-child(2){
+    margin-right: 0;
+    background: url("../images/chaxunBtn.png") center no-repeat;
+    background-size: cover;
+}
+/*弹窗*/
+.tc{
+    position: fixed;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+.tc1{
+    display: none;
+    width: 26.8rem;
+    height: 23.2rem;
+    background: url("../images/tcBox1_05.png") center no-repeat;
+    background-size: cover;
+}
+.tc p:first-child{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+    color: #ffffff;
+}
+.tc .tcClose{
+    position: absolute;
+    top: 1rem;
+    right: 1.1rem;
+    display: block;
+    width: 1.15rem;
+    height: 1.15rem;
+    background: url("../images/tcClose.png") center no-repeat;
+    background-size: cover;
+}
+.tc1 .content{
+    position: relative;
+    box-sizing: border-box;
+    margin: 6rem auto 0;
+    padding-left: 3.4rem;
+    width: 18.3rem;
+    border-bottom: 2px dashed #333333;
+}
+.tc1 .content span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.7rem;
+    height: 2.6rem;
+    background: url("../images/tcPhoneIco.png") center no-repeat;
+    background-size: cover;
+}
+.tc1 .content input{
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+}
+.tc1 div:last-child{
+    position: absolute;
+    bottom: 1.75rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 15.5rem;
+    height: 3.8rem;
+    background: url("../images/tcLijiyanzhengBtn.png") center no-repeat;
+    background-size: cover;
+}
+.tc2{
+    display: none;
+    width: 26.8rem;
+    height: 39.05rem;
+    background: url("../images/tcBox2.png") center no-repeat;
+    background-size: cover;
+}
+.tc>div:last-child{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.1rem;
+    margin: auto;
+    width: 15.5rem;
+    height: 3.8rem;
+    background: url("../images/tcEntBtn.png") center no-repeat;
+    background-size: cover;
+}
+.tc3{
+    display: none;
+    width: 26.8rem;
+    height: 28.65rem;
+    background: url("../images/tcBox3_05.png") center no-repeat;
+    background-size: cover;
+}
+.tc4{
+    display: none;
+    width: 26.8rem;
+    height: 38.4rem;
+    background: url("../images/tcBox4_05.png") center no-repeat;
+    background-size: cover;
+}
+.tc5{
+    display: none;
+    width: 26.8rem;
+    height: 29.45rem;
+    background: url("../images/tcBox5_05.png") center no-repeat;
+    background-size: cover;
+}
+.tc5 div:last-child{
+    width: 15.5rem;
+    height: 3.8rem;
+    background: url("../images/tcLijiyanzhengBtn.png") center no-repeat;
+    background-size: cover;
+}
+.tc5 .sp{
+    position: relative;
+    box-sizing: border-box;
+    margin: 4rem auto 0;
+    padding-left: 2.1rem;
+    width: 18.3rem;
+    border-bottom: 2px dashed #333333;
+}
+.tc5 .sp.con2{
+    position: relative;
+    margin-top: 0;
+}
+.tc5 .sp.con1 span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.7rem;
+    height: 2.6rem;
+    background: url("../images/tcPhoneIco.png") center no-repeat;
+    background-size: cover;
+}
+.tc5 .sp.con2 span{
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    width: 6.9rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background-color: #2294ff;
+}
+.tc5 .sp.con2 span.active{
+    color: #999;
+    background-color: #ccc;
+}
+.tc5 .sp input{
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+}
+.tc.tc6{
+    display: none;
+    width: 26.8rem;
+    height: 40rem;
+    border-radius: 1rem;
+    background-color: #79dbff;
+}
+.tc.tc6>p{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 26.8rem;
+    height: 4.75rem;
+    background: url("../images/zgyhtitleBg_02.png") center no-repeat;
+    background-size: cover;
+}
+.yhIco{
+    height: 33rem;
+    overflow: scroll;
+}
+.tc.tc6 .yhIco span{
+    margin: 4.75rem auto 0;
+    display: block;
+    width: 24rem;
+    height: 18.95rem;
+    background: url("../images/yinhangCon_02.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc6 .yhIco div{
+    margin: 2rem auto 0;
+    width: 23rem;
+    background-color: #00bbff;
+}
+.tc.tc6 .yhIco div p,.tc.tc6 .yhIco div ul li{
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.5rem;
+}
+.tc.tc6 .yhIco div{
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+}
+.tc.tc6 .yhIco div ul li:first-child{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.tc.cg{
+    display: none;
+    width: 26.8rem;
+    height: 28.65rem;
+    background: url("../images/tcBoxCg_05.png") center no-repeat;
+    background-size: cover;
+}
+.hdgzBox{
+    display: none;
+    padding: 0 2rem 3rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: justify;
+    color: #ffffff;
+}
+.hdgzBox div{
+    padding: 0.5rem 1rem 1rem;
+    background-color: #0048aa;
+}
+.hdgzBox div p span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/*遮罩层*/
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
