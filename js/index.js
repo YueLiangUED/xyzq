@@ -149,7 +149,9 @@ $(function () {
         var $this = $(this);
         if($('#tvWrap').find('li.active').length < 3){
             $this.addClass('active');
-            window.location.href = 'index3.html';
+            window.setTimeout(function () {
+                window.location.href = 'index3.html';
+            },500);
         }
     });
     //激活码页返回按钮
