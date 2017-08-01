@@ -197,9 +197,11 @@ section .more .more-ico ul li:nth-child(2) div{
     background-size: cover;
 }
 section .more .more-ico ul li:nth-child(3) span:nth-child(1){
-    margin-bottom: 1.3rem;
     background: url("../images/f-ico-3.png") center no-repeat;
     background-size: cover;
+}
+section .more .more-ico ul li:nth-child(3) span:nth-child(2){
+    line-height: 1.75rem;
 }
 section .more .more-ico ul li:nth-child(4) span:nth-child(1){
     background: url("../images/f-ico-4.png") center no-repeat;
