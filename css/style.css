@@ -184,6 +184,9 @@ section .more .more-ico ul li:nth-child(2) span:nth-child(1){
     background: url("../images/f-ico-2.png") center no-repeat;
     background-size: cover;
 }
+section .more .more-ico ul li i{
+    display: block;
+}
 section .more .more-ico ul li:nth-child(2) div{
     position: absolute;
     top: -1.2rem;
