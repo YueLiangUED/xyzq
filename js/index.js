@@ -87,7 +87,12 @@ $(function () {
     });
     //OFO
     $('#suc3 div:last-child').on('click',function () {
-
+        $(this).parent().fadeOut();
+        $('.tcOfo').fadeIn();
+    });
+    $('.tcOfo div:last-child').on('click',function () {
+        $(this).parent().fadeOut();
+        hideMask();
     });
     //中青旅
     $('#dd div:last-child').on('click',function () {
@@ -159,7 +164,7 @@ $(function () {
         history.go(-1);
     });
     //新老生go按钮跳转到二级页面
-    $('.goBtn').on('click',function () {
+    $('.gogogo').on('click','li',function () {
         window.location.href = 'index1.html';
     });
     //手机终端

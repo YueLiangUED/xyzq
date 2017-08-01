@@ -295,6 +295,13 @@ html,body{
     background: url("../images/tcBox4_05.png") center no-repeat;
     background-size: cover;
 }
+.tcOfo{
+    display: none;
+    width: 26.8rem;
+    height: 38.4rem;
+    background: url("../images/tcBox4-OFO_05.png") center no-repeat;
+    background-size: cover;
+}
 .tc5{
     display: none;
     width: 26.8rem;
