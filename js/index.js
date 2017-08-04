@@ -173,19 +173,19 @@ $(function () {
     });
     //更多推荐跳转
     //1元阅读包
-    $('#ico1').on('click',function () {
+    $('.tj1').on('click',function () {
         window.location.href = 'http://service.bj.10086.cn/m/jsp/2017410/hydyyydb/index.jsp';
     });
     //云视界
-    $('#ico2').on('click',function () {
+    $('.tj2').on('click',function () {
         window.location.href = ' http://appdownload.taipan.bja.bcs.ottcn.com/bjxiaoyuanyingxiao/';
     });
     //NFC
-    $('#ico3').on('click',function () {
+    $('.tj3').on('click',function () {
         window.location.href = 'https://www.17jifen.com/hd/huayisummary/joy/joy_nfc_active2.html';
     });
     //和多号
-    $('#ico4').on('click',function () {
+    $('.tj4').on('click',function () {
         window.location.href = 'http://sc.bj.chinamobile.com/andmore/index.html';
     });
     

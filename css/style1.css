@@ -297,10 +297,14 @@ html,body{
 }
 .tcOfo{
     display: none;
+    top: 10%;
     width: 26.8rem;
-    height: 38.4rem;
+    height: 48.3rem;
     background: url("../images/tcBox4-OFO_05.png") center no-repeat;
     background-size: cover;
+}
+.tcOfo div:last-child{
+    bottom: 1.5rem;
 }
 .tc5{
     display: none;

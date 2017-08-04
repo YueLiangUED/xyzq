@@ -72,6 +72,13 @@ section .xstq .xstqTitle{
     background: url("../images/xinshengtq.png") center no-repeat;
     background-size: cover;
 }
+section .xstq .xstqTitle.tj{
+    margin-top: 1rem;
+    width: 14.7rem;
+    height: 3.4rem;
+    background: url("../images/remenTitle.png") center no-repeat;
+    background-size: cover;
+}
 section .xstq .xstqBox{
     box-sizing: border-box;
     margin: 0 auto;
@@ -109,6 +116,26 @@ section .xstq .xstqBox ul li:nth-child(3){
 }
 section .xstq .xstqBox ul li:nth-child(4){
     background: url("../images/xska-4_03.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li.tj1{
+    margin-right: 0.85rem;
+    margin-bottom: 0.85rem;
+    background: url("../images/f-ico-1.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li.tj2{
+    margin-bottom: 0.85rem;
+    background: url("../images/f-ico-2.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li.tj3{
+    margin-right: 0.85rem;
+    background: url("../images/f-ico-3.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li.tj4{
+    background: url("../images/f-ico-4.png") center no-repeat;
     background-size: cover;
 }
 section .xstq .xstqBox ul li span{
@@ -279,7 +306,7 @@ section .ls .lsB-box .lsB-boxPic ul li span{
 
 section .erweima{
     box-sizing: border-box;
-    margin: 0 auto 5.3rem;
+    margin: 2.5rem auto 5.3rem;
     padding-top: 1rem;
     width: 35.2rem;
     height: 25.3rem;
