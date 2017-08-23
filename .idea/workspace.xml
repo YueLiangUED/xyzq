@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0927088b-463b-4c62-b95b-c7c82cb9d10b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/footerBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/laoshengBox_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lska-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mainBg_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tcBox-meituan_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tcBox-weihuishou_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tqPic-7_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tqPic-8_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xs-huishou.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xs-lvyou_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xs-meituan_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xs-tongxue_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xs-yinhang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xsBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/zhongduanBg_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/zhongqinglverweima.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/zunxiangTitleBg_01.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/GO.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lijibanli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lijibanli2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lijibanli3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lijibanli4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lijibanli5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lijibanli6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ls-B-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ls-T-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sjzdBox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xska-4_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xstqBox.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/erweima-1.png" afterPath="$PROJECT_DIR$/images/erweima-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/erweima-2.png" afterPath="$PROJECT_DIR$/images/erweima-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f-ico-1.png" afterPath="$PROJECT_DIR$/images/f-ico-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f-ico-2.png" afterPath="$PROJECT_DIR$/images/f-ico-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f-ico-3.png" afterPath="$PROJECT_DIR$/images/f-ico-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f-ico-4.png" afterPath="$PROJECT_DIR$/images/f-ico-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/headerBg.png" afterPath="$PROJECT_DIR$/images/headerBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/laoshengtq.png" afterPath="$PROJECT_DIR$/images/laoshengtq.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ls-T-pic.png" afterPath="$PROJECT_DIR$/images/ls-T-pic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/remenTitle.png" afterPath="$PROJECT_DIR$/images/remenTitle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shoujizd.png" afterPath="$PROJECT_DIR$/images/shoujizd.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sjzdPic.png" afterPath="$PROJECT_DIR$/images/sjzdPic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcBox4-OFO_05.png" afterPath="$PROJECT_DIR$/images/tcBox4-OFO_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcBox4_05.png" afterPath="$PROJECT_DIR$/images/tcBox4_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-1_05.png" afterPath="$PROJECT_DIR$/images/tqPic-1_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-2_05.png" afterPath="$PROJECT_DIR$/images/tqPic-2_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-3_05.png" afterPath="$PROJECT_DIR$/images/tqPic-3_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-4_11.png" afterPath="$PROJECT_DIR$/images/tqPic-4_11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-5_05.png" afterPath="$PROJECT_DIR$/images/tqPic-5_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-6_05.png" afterPath="$PROJECT_DIR$/images/tqPic-6_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xinshengtq.png" afterPath="$PROJECT_DIR$/images/xinshengtq.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xska-1_03.png" afterPath="$PROJECT_DIR$/images/xska-1_03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xska-2_03.png" afterPath="$PROJECT_DIR$/images/xska-2_03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xska-3_08.png" afterPath="$PROJECT_DIR$/images/xska-3_08.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/zunxiangtq.png" afterPath="$PROJECT_DIR$/images/zunxiangtq.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style1.css" afterPath="$PROJECT_DIR$/css/style1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index1.html" afterPath="$PROJECT_DIR$/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="0717校园专区.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,10 +26,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -328,12 +267,12 @@
       <workItem from="1502792053101" duration="4327000" />
       <workItem from="1503043043269" duration="3647000" />
       <workItem from="1503304277559" duration="4581000" />
-      <workItem from="1503385982935" duration="12701000" />
+      <workItem from="1503385982935" duration="12902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93433000" />
+    <option name="totallyTimeSpent" value="93634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1234" height="777" extended-state="6" />
@@ -652,10 +591,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
