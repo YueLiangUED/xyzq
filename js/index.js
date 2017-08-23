@@ -55,6 +55,14 @@ $(function () {
         $('#ee').fadeIn();
         showMask();
     });
+    $('#zx7').on('click',function () {
+        $('#ff').fadeIn();
+        showMask();
+    });
+    $('#zx8').on('click',function () {
+        $('#gg').fadeIn();
+        showMask();
+    });
     //弹窗X关闭
     $('.tcClose').on('click',function () {
         $('.tc').fadeOut();
@@ -118,11 +126,39 @@ $(function () {
         //验证失败
         //$('.tc3').fadeIn();
     });
+    //美团
+    $('#ff div:last-child').on('click',function () {
+        $(this).parent().fadeOut();
+        //验证通过
+        $('#suc6').fadeIn();
+        //验证失败
+        //$('.tc3').fadeIn();
+    });
+    //微回收
+    $('#gg div:last-child').on('click',function () {
+        $(this).parent().fadeOut();
+        //验证通过
+        $('#suc7').fadeIn();
+        //验证失败
+        //$('.tc3').fadeIn();
+    });
     $('#suc5 div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         $('.tc6').fadeIn();
     });
+    $('#suc6 div:last-child').on('click',function () {
+        $(this).parent().fadeOut();
+        $('.tc7').fadeIn();
+    });
+    $('#suc7 div:last-child').on('click',function () {
+        $(this).parent().fadeOut();
+        $('.tc8').fadeIn();
+    });
     $('.tc6 div:last-child').on('click',function () {
+        $(this).parent().fadeOut();
+        hideMask();
+    });
+    $('.tc7 div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         hideMask();
     });

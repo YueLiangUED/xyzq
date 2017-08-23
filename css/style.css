@@ -1,5 +1,5 @@
 html,body{
-    background-color: #035fdc;
+    background-color: #afebff;
 }
 input{
     border: none;
@@ -12,12 +12,13 @@ header{
 }
 section .tabTitle{
     padding-top: 1.3rem;
+    background: url("../images/11_02.png") center no-repeat;
+    background-size: cover;
 }
 section .tabTitle ul{
     margin: 0 auto;
     box-sizing: border-box;
     width: 20rem;
-
     border-radius: 2rem;
 }
 section .tabTitle ul li{
@@ -27,9 +28,9 @@ section .tabTitle ul li{
     height: 3rem;
     font-size: 1.5rem;
     text-align: center;
-    line-height: 3rem;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    line-height: 2.8rem;
+    color: #2294ff;
+    border: 2px solid #2294ff;
 }
 section .tabTitle ul li:first-child{
     border-right: 0;
@@ -40,14 +41,14 @@ section .tabTitle ul li:last-child{
     border-radius: 0 3rem 3rem 0;
 }
 section .tabTitle ul li.active{
-    color: #004fbb;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #2294ff;
 }
 section .xs{
     position: relative;
 }
 section .swiper-container{
-    margin: 2.25rem auto 3.5rem;
+    margin: 2.25rem auto 2.3rem;
 }
 section .xs .swpBg{
     position: absolute;
@@ -65,6 +66,13 @@ section .swiper-container .swiper-wrapper .swiper-slide img{
     width: 18.55rem;
     height: 11.4rem;
 }
+section .xstq.fir{
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 47.6rem;
+    background: url("../images/xsBg.png") center no-repeat;
+    background-size: cover;
+}
 section .xstq .xstqTitle{
     margin: 0 auto;
     width: 16.1rem;
@@ -73,8 +81,8 @@ section .xstq .xstqTitle{
     background-size: cover;
 }
 section .xstq .xstqTitle.tj{
-    margin-top: 1rem;
-    width: 14.7rem;
+    margin-bottom: 1rem;
+    width: 14.6rem;
     height: 3.4rem;
     background: url("../images/remenTitle.png") center no-repeat;
     background-size: cover;
@@ -83,39 +91,54 @@ section .xstq .xstqBox{
     box-sizing: border-box;
     margin: 0 auto;
     width: 34.7rem;
-    height: 22.35rem;
-    background: url("../images/xstqBox.png") center no-repeat;
-    background-size: cover;
+
 }
 section .xstq .xstqBox ul{
     margin: 0 auto;
-    padding-top: 2.7rem;
-    width: 29.95rem;
+    padding-top: 1.4rem;
+    padding-bottom: 2rem;
+    width: 34.95rem;
 }
 section .xstq .xstqBox ul li{
     position: relative;
     float: left;
-    width: 14.55rem;
-    height: 8.15rem;
+    width: 17.05rem;
+    height: 9.55rem;
+}
+section .xstq .xstqBox ul li:nth-child(odd){
+    margin-right: 0.85rem;
+    margin-bottom: 0.55rem;
 }
 section .xstq .xstqBox ul li:nth-child(1){
-    margin-right: 0.85rem;
-    margin-bottom: 0.85rem;
     background: url("../images/xska-1_03.png") center no-repeat;
     background-size: cover;
 }
 section .xstq .xstqBox ul li:nth-child(2){
-    margin-bottom: 0.85rem;
-    background: url("../images/xska-2_03.png") center no-repeat;
+    background: url("../images/xs-tongxue_05.png") center no-repeat;
     background-size: cover;
 }
 section .xstq .xstqBox ul li:nth-child(3){
-    margin-right: 0.85rem;
-    background: url("../images/xska-3_08.png") center no-repeat;
+    background: url("../images/xska-2_03.png") center no-repeat;
     background-size: cover;
 }
 section .xstq .xstqBox ul li:nth-child(4){
-    background: url("../images/xska-4_03.png") center no-repeat;
+    background: url("../images/xska-3_08.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(5){
+    background: url("../images/xs-lvyou_03.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(6){
+    background: url("../images/xs-yinhang.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(7){
+    background: url("../images/xs-meituan_03.png") center no-repeat;
+    background-size: cover;
+}
+section .xstq .xstqBox ul li:nth-child(8){
+    background: url("../images/xs-huishou.png") center no-repeat;
     background-size: cover;
 }
 section .xstq .xstqBox ul li.tj1{
@@ -148,27 +171,30 @@ section .xstq .xstqBox ul li span{
     background: url("../images/GO.png") center no-repeat;
     background-size: cover;
 }
+section .sjzd{
+    width: 37.5rem;
+    height: 21rem;
+    background: url("../images/zhongduanBg_05.png") center no-repeat;
+    background-size: cover;
+}
 section .sjzd .zdTitle{
-    margin: 2.5rem auto 0;
-    width: 14.6rem;
-    height: 3.5rem;
+    margin: 0 auto;
+    width: 16.85rem;
+    height: 3.55rem;
     background: url("../images/shoujizd.png") center no-repeat;
     background-size: cover;
 }
 section .sjzd .zdBox{
     box-sizing: border-box;
     margin: 0 auto;
-    padding-top: 2.75rem;
-    width: 34.7rem;
-    height: 23.6rem;
-    background: url("../images/sjzdBox.png") center no-repeat;
-    background-size: cover;
+    padding-top: .75rem;
+    width: 34.85rem;
 }
 section .sjzd .zdBox span{
     display: block;
     margin: 0 auto;
-    width: 30.1rem;
-    height: 17.95rem;
+    width: 34.85rem;
+    height: 16.75rem;
     background: url("../images/sjzdPic.png") center no-repeat;
     background-size: cover;
 }
@@ -244,52 +270,62 @@ section .more .more-ico ul li i{
 section .ls{
     display: none;
 }
+section .ls .lsB-box{
+    width: 37.5rem;
+    height: 27.2rem;
+    background: url("../images/laoshengBox_02.png") center no-repeat;
+    background-size: cover;
+}
 section .ls .lsT-box{
     box-sizing: border-box;
     margin: 0 auto;
-    padding-top: 2.8rem;
+    padding-top: 1.2rem;
     width: 34.7rem;
-    height: 23.6rem;
-    background: url("../images/ls-T-box.png") center no-repeat;
-    background-size: cover;
 }
 section .ls .lsT-box span{
     display: block;
     margin: 0 auto;
-    width: 30.1rem;
-    height: 17.95rem;
+    width: 33.1rem;
+    height: 16.75rem;
     background: url("../images/ls-T-pic.png") center no-repeat;
     background-size: cover;
 }
 section .ls .lsB-box .lsB-boxTitle{
-    margin: 1.7rem auto 0.75rem;
-    width: 16.1rem;
-    height: 3.7rem;
+    margin: 1.65rem auto 0.75rem;
+    width: 14.6rem;
+    height: 3.65rem;
     background: url("../images/laoshengtq.png") center no-repeat;
     background-size: cover;
 }
 section .ls .lsB-box .lsB-boxPic{
     box-sizing: border-box;
+    padding-top: 1rem;
     margin: 0 auto;
-    padding: 2.5rem 2.1rem 0 2.3rem;
-    width: 34.4rem;
-    height: 13rem;
-    background: url("../images/ls-B-box.png") center no-repeat;
-    background-size: cover;
+    width: 34.95rem;
 }
 section .ls .lsB-box .lsB-boxPic ul li{
     position: relative;
     float: left;
-    width: 14.55rem;
-    height: 8.15rem;
+    width: 17.05rem;
+    height: 9.55rem;
 }
 section .ls .lsB-box .lsB-boxPic ul li:nth-child(1){
     margin-right: 0.85rem;
-    background: url("../images/xska-1_03.png") center no-repeat;
+    margin-bottom: 0.65rem;
+    background: url("../images/lska-1.png") center no-repeat;
     background-size: cover;
 }
 section .ls .lsB-box .lsB-boxPic ul li:nth-child(2){
     background: url("../images/xska-2_03.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxPic ul li:nth-child(3){
+    margin-right: 0.85rem;
+    background: url("../images/xs-meituan_03.png") center no-repeat;
+    background-size: cover;
+}
+section .ls .lsB-box .lsB-boxPic ul li:nth-child(4){
+    background: url("../images/xs-huishou.png") center no-repeat;
     background-size: cover;
 }
 section .ls .lsB-box .lsB-boxPic ul li span{
@@ -303,50 +339,48 @@ section .ls .lsB-box .lsB-boxPic ul li span{
     background: url("../images/GO.png") center no-repeat;
     background-size: cover;
 }
-
+section .xstq .xstqBox.foo ul{
+    padding-bottom: 0;
+    width: 32.05rem;
+}
+section .xstq .xstqBox.foo ul li{
+    width: 15.6rem;
+    height: 8.75rem;
+}
 section .erweima{
     box-sizing: border-box;
-    margin: 2.5rem auto 5.3rem;
+    width: 37.5rem;
+    height: 44.3rem;
+    background: url("../images/footerBg.png") center no-repeat;
+    background-size: cover;
     padding-top: 1rem;
-    width: 35.2rem;
-    height: 25.3rem;
-    background-color: #003dac;
-}
-section .erweima div:first-child p{
-    font-size: 1.5rem;
-    text-align: center;
-    color: #ffffff;
-}
-section .erweima div:first-child p span{
-    font-size: 1.8rem;
-    color: #f9f767;
-}
-section .erweima div:first-child p:nth-child(2){
-    font-size: 1.8rem;
-}
-section .erweima div:first-child p:nth-child(2) span{
-    font-size: 2.3rem;
 }
 section .erweima ul li{
     float: left;
-    width: 17.6rem;
+    width: 18.75rem;
     text-align: center;
 }
-section .erweima ul li:nth-child(1) div{
-    margin: 1.5rem auto 1rem;
-    width: 12.05rem;
-    height: 12.05rem;
-    background: url("../images/erweima-1.png") center no-repeat;
-    background-size: cover;
+section .erweima ul li div{
+    margin: .5rem auto .5rem;
+    width: 8.9rem;
+    height: 8.9rem;
 }
-section .erweima ul li:nth-child(2) div{
-    margin: 1.5rem auto 1rem;
-    width: 12.1rem;
-    height: 12.1rem;
-    background: url("../images/erweima-2.png") center no-repeat;
-    background-size: cover;
+section .erweima ul li div img{
+    width: 8.9rem;
+    height: 8.9rem;
 }
 section .erweima ul li p{
     font-size: 1rem;
-    color: #fdfdfd;
+    color: #0086ff;
+}
+section .erweima ul li p:nth-child(1){
+    font-size: 1.3rem;
+    color: #ff5353;
+}
+section .erweima ul li p:nth-child(1) span{
+    font-size: 1.1rem;
+}
+section .erweima ul li p:nth-child(2){
+    font-size: 1rem;
+    color: #ff5353;
 }
