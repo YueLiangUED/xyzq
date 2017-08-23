@@ -48,7 +48,6 @@ section .xs{
     position: relative;
 }
 section .xs>div:nth-child(1){
-    margin: 0 auto;
     width: 30rem;
     background-color: #afeaff;
 }
