@@ -31,7 +31,7 @@ $(function () {
     });
     //老生ICON跳转
     $('#lsJump').on('click',function () {
-        window.location.href = '';
+        window.location.href = 'http://service.bj.10086.cn/m/xyyxcl2017/xyyxcl2017.action';
     });
     //二级页面6个尊享特权领取立即办理按钮
     $('#zx1').on('click',function () {
@@ -93,15 +93,12 @@ $(function () {
     $('#cc div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         //验证通过
-        $('#suc3').fadeIn();
+        $('.tcOfo').fadeIn();
         //验证失败
         //$('.tc3').fadeIn();
     });
     //OFO
-    $('#suc3 div:last-child').on('click',function () {
-        $(this).parent().fadeOut();
-        $('.tcOfo').fadeIn();
-    });
+    
     $('.tcOfo div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         hideMask();
@@ -110,14 +107,11 @@ $(function () {
     $('#dd div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         //验证通过
-        $('#suc4').fadeIn();
+        $('.tc4').fadeIn();
         //验证失败
         //$('.tc3').fadeIn();
     });
-    $('#suc4 div:last-child').on('click',function () {
-        $(this).parent().fadeOut();
-        $('.tc4').fadeIn();
-    });
+
     $('.tc4 div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         hideMask();
@@ -134,7 +128,7 @@ $(function () {
     $('#ff div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         //验证通过
-        $('#suc6').fadeIn();
+        $('.tc7').fadeIn();
         //验证失败
         //$('.tc3').fadeIn();
     });
@@ -142,7 +136,7 @@ $(function () {
     $('#gg div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         //验证通过
-        $('#suc7').fadeIn();
+        $('.tc8').fadeIn();
         //验证失败
         //$('.tc3').fadeIn();
     });
@@ -150,14 +144,8 @@ $(function () {
         $(this).parent().fadeOut();
         $('.tc6').fadeIn();
     });
-    $('#suc6 div:last-child').on('click',function () {
-        $(this).parent().fadeOut();
-        $('.tc7').fadeIn();
-    });
-    $('#suc7 div:last-child').on('click',function () {
-        $(this).parent().fadeOut();
-        $('.tc8').fadeIn();
-    });
+
+
     $('.tc6 div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         hideMask();
