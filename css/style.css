@@ -47,6 +47,15 @@ section .tabTitle ul li.active{
 section .xs{
     position: relative;
 }
+section .xs>div:nth-child(1){
+    position: absolute;
+    top: 12.2rem;
+    right: 1.3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #006dff;
+}
 section .swiper-container{
     margin: 2.25rem auto 2.3rem;
 }

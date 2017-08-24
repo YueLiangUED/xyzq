@@ -90,6 +90,19 @@ html,body{
     border: 2px solid #0185cf;
     border-radius: 0.5rem;
 }
+.content.one div:nth-child(2) ul li:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.content.one div:nth-child(2) ul li:nth-child(3){
+    width: 8rem;
+}
+.content.one div:nth-child(2) ul li:nth-child(2) p{
+    word-break: break-all;
+}
 .content.secTitle{
     position: relative;
     box-sizing: border-box;

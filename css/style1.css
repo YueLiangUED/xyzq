@@ -328,7 +328,7 @@ html,body{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 6.5rem;
+    bottom: 5rem;
     margin: auto;
     width: 11.7rem;
     height: 11.7rem;
@@ -336,6 +336,9 @@ html,body{
 .tc4 div:nth-child(3) img,.tcOfo div:nth-child(3) img{
     width: 100%;
     height: 100%;
+}
+.tc4 div:last-child{
+    display: none;
 }
 .tcOfo{
     display: none;
@@ -349,12 +352,13 @@ html,body{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 6.5rem;
+    bottom: 5rem;
     margin: auto;
     width: 11.4rem;
     height: 11.45rem;
 }
 .tcOfo div:last-child{
+    display: none;
     bottom: 1.5rem;
 }
 .tc5{
@@ -418,8 +422,9 @@ html,body{
 }
 .tc.tc6{
     display: none;
+    top: 10%;
     width: 26.8rem;
-    height: 40rem;
+    height: 50rem;
     border-radius: 1rem;
     background-color: #79dbff;
 }
@@ -434,7 +439,6 @@ html,body{
 }
 .yhIco{
     height: 33rem;
-    overflow: scroll;
 }
 .tc.tc6 .yhIco span{
     margin: 4.75rem auto 0;
@@ -445,8 +449,10 @@ html,body{
     background-size: cover;
 }
 .tc.tc6 .yhIco div{
-    margin: 2rem auto 0;
+    overflow: scroll;
+    margin: 1.5rem auto 0;
     width: 23rem;
+    height: 23rem;
     background-color: #00bbff;
 }
 .tc.tc6 .yhIco div p,.tc.tc6 .yhIco div ul li{
@@ -462,6 +468,9 @@ html,body{
 .tc.tc6 .yhIco div ul li:first-child{
     margin-bottom: 0.5rem;
     text-align: center;
+}
+.tc.tc6>div:last-child{
+    display: none;
 }
 .tc.cg{
     display: none;
@@ -481,7 +490,7 @@ html,body{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 5.5rem;
+    bottom: 4rem;
     margin: auto;
     width: 11.7rem;
     height: 11.7rem;
@@ -491,7 +500,7 @@ html,body{
     height: 100%;
 }
 .tc.tc7 div:nth-child(4){
-    bottom: 1rem;
+    display: none;
 }
 .tc.tc8{
     display: none;

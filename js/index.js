@@ -25,6 +25,10 @@ $(function () {
             window.location.href = 'http://service.bj.10086.cn/m/num/num/xyyxNumConfig/showFontPage.action?xyyxNumConfigVO.campusCode=999999999999999999';
         }
     });
+    //首页立即选号跳转
+    $('#addJump').on('click',function () {
+        window.location.href = 'http://service.bj.10086.cn/m/num/num/xyyxNumConfig/showFontPage.action?xyyxNumConfigVO.campusCode=999999999999999999'
+    });
     //老生ICON跳转
     $('#lsJump').on('click',function () {
         window.location.href = '';
