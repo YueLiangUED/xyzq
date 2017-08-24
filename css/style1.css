@@ -70,42 +70,10 @@ html,body{
     width: 10.95rem;
     height: 3.6rem;
 }
-.main ul li:nth-child(1) span{
-    background: url("../images/lijibanli.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(2) span{
-    background: url("../images/lijibanli2.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(3) span{
-    background: url("../images/lijibanli3.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(4) span{
-    background: url("../images/lijibanli4.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(5) span{
-    background: url("../images/lijibanli5.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(6) span{
-    background: url("../images/lijibanli6.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(7) span{
-    background: url("../images/lijibanli7.png") center no-repeat;
-    background-size: cover;
-}
-.main ul li:nth-child(8) span{
-    background: url("../images/lijibanli8.png") center no-repeat;
-    background-size: cover;
-}
 .spTitle{
     margin: 4.3rem auto 3.35rem;
-    width: 16.1rem;
-    height: 3.8rem;
+    width: 17rem;
+    height: 3.75rem;
     background: url("../images/shipintq.png") center no-repeat;
     background-size: cover;
 }
@@ -551,7 +519,7 @@ html,body{
 }
 .hdgzBox div{
     padding: 0.5rem 1rem 1rem;
-    background-color: #0048aa;
+    background-color: #6fd9ff;
 }
 .hdgzBox div p span{
     font-size: 1.2rem;
