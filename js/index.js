@@ -98,7 +98,7 @@ $(function () {
         //$('.tc3').fadeIn();
     });
     //OFO
-    
+
     $('.tcOfo div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         hideMask();
@@ -120,7 +120,7 @@ $(function () {
     $('#ee div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         //验证通过
-        $('#suc5').fadeIn();
+        $('.tc6').fadeIn();
         //验证失败
         //$('.tc3').fadeIn();
     });
@@ -140,10 +140,6 @@ $(function () {
         //验证失败
         //$('.tc3').fadeIn();
     });
-    $('#suc5 div:last-child').on('click',function () {
-        $(this).parent().fadeOut();
-        $('.tc6').fadeIn();
-    });
 
 
     $('.tc6 div:last-child').on('click',function () {
@@ -158,12 +154,9 @@ $(function () {
     $('.tc5 div:last-child').on('click',function () {
         $(this).parent().fadeOut();
         //验证通过
-        $('#suc2').fadeIn();
+        window.location.href = 'index2.html';
         //验证失败
         //$('.tc3').fadeIn();
-    });
-    $('#suc2 div:last-child').on('click',function () {
-        window.location.href = 'index2.html';
     });
     //第一个同学圈验证弹窗确定按钮
     $('#yi div:last-child').on('click',function () {
