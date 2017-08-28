@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0927088b-463b-4c62-b95b-c7c82cb9d10b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tqPic-5_05.png" afterPath="$PROJECT_DIR$/images/tqPic-5_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-    </list>
+    <list default="true" id="0927088b-463b-4c62-b95b-c7c82cb9d10b" name="Default" comment="" />
     <ignored path="0717校园专区.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -314,12 +311,12 @@
       <workItem from="1503304277559" duration="4581000" />
       <workItem from="1503385982935" duration="15832000" />
       <workItem from="1503482878651" duration="1874000" />
-      <workItem from="1503543389751" duration="4663000" />
+      <workItem from="1503543389751" duration="4798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103101000" />
+    <option name="totallyTimeSpent" value="103236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1234" height="777" extended-state="6" />
